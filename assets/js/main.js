@@ -72,7 +72,8 @@ jQuery(document).ready(function($) {
         advanced: {
             updateOnContentResize: true,
             updateOnBrowserResize: true,
-            autoScrollOnFocus: false
+            autoScrollOnFocus: false,
+	    scrollInertia: 3000
         }
     });
 
